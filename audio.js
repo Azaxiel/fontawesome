@@ -436,7 +436,7 @@ var audioPlayer = function() {
   var _resetPlayStatus = function() {
     var smallToggleBtn = _elements.playerButtons.smallToggleBtn;
 
-    _elements.playerButtons.largeToggleBtn.children[0].className = "large-play-btn";
+    _elements.playerButtons.largeToggleBtn.children[0].class = "large-play-btn";
 
     for (var i = 0; i < smallToggleBtn.length; i++) {
       if (smallToggleBtn[i].children[0].className === "small-pause-btn") {
